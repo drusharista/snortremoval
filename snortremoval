@@ -1,0 +1,7 @@
+#!/usr/bin/bash
+
+dpkg --remove snort
+dpkg --remove snort-common
+dpkg --remove snort-common-libraries
+dpkg --remove snort-rules-default
+dpkg --configure -a
