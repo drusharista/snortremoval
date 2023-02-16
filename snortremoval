@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 
 dpkg --remove snort
 dpkg --remove snort-common
